@@ -1,0 +1,5 @@
+USE GLOB
+go
+CREATE SCHEMA context
+go
+CREATE SCHEMA styles
