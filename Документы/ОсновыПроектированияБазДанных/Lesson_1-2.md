@@ -36,3 +36,5 @@
                 Ссылку прикрепите к текущему домашнему заданию.
 
   > https://github.com/Gabryelf/-SQL-MS-Server/blob/master/Документы/ОсновыПроектированияБазДанных/Lesson_1-2.md
+
+
