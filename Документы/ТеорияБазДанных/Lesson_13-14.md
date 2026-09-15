@@ -22,4 +22,4 @@
 > Инициализируйте git в папке с решением (если еще не сделали этого) и сохраните в репозиторий GitHub 
 > Ссылку прикрепите к текущему домашнему заданию.
 
-https://github.com/Gabryelf/-SQL-MS-Server/edit/master/Документы/ТеорияБазДанных/Lesson_9-10.md
+https://github.com/Gabryelf/-SQL-MS-Server/edit/master/Документы/ТеорияБазДанных/Lesson_13-14.md
