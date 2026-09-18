@@ -1,0 +1,4 @@
+CREATE DATABASE ShopDB;
+GO
+USE ShopDB;
+GO

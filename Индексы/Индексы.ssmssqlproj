@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Скрипты SQL Server1">
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Индексы">
   <Items>
     <LogicalFolder Name="Соединения" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="(localdb)\MSSQLLocalDB:PCLITE\elf">
-          <Created>2026-09-01T19:40:10.0805635+03:00</Created>
+          <Created>2026-09-16T19:54:36.1840532+03:00</Created>
           <Type>SQL</Type>
           <Server>(localdb)\MSSQLLocalDB</Server>
           <UserName />
           <Authentication>Проверка подлинности Windows</Authentication>
-          <InitialDB />
+          <InitialDB>TestIndex</InitialDB>
           <LoginTimeout>15</LoginTimeout>
           <TrustServerCertificate>False</TrustServerCertificate>
           <EncryptionOption>True</EncryptionOption>
@@ -21,29 +21,17 @@
     </LogicalFolder>
     <LogicalFolder Name="Запросы" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="запросы.sql">
+        <FileNode Name="кластеризованныйИндекс.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>запросы.sql</FullPath>
+          <FullPath>кластеризованныйИндекс.sql</FullPath>
         </FileNode>
-        <FileNode Name="созданиеБД.sql">
+        <FileNode Name="тестоваяТаблицаДляИндексов.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>созданиеБД.sql</FullPath>
-        </FileNode>
-        <FileNode Name="списокБД.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>списокБД.sql</FullPath>
-        </FileNode>
-        <FileNode Name="удалениеБД.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>удалениеБД.sql</FullPath>
+          <FullPath>тестоваяТаблицаДляИндексов.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

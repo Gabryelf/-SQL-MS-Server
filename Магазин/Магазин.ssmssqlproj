@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Таблицы">
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Магазин">
   <Items>
     <LogicalFolder Name="Соединения" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="(localdb)\MSSQLLocalDB:PCLITE\elf">
-          <Created>2026-09-01T23:15:30.0469672+03:00</Created>
+          <Created>2026-09-12T18:35:32.8405498+03:00</Created>
           <Type>SQL</Type>
           <Server>(localdb)\MSSQLLocalDB</Server>
           <UserName />
           <Authentication>Проверка подлинности Windows</Authentication>
-          <InitialDB />
+          <InitialDB>ShopDB</InitialDB>
           <LoginTimeout>15</LoginTimeout>
           <TrustServerCertificate>False</TrustServerCertificate>
           <EncryptionOption>True</EncryptionOption>
@@ -21,41 +21,29 @@
     </LogicalFolder>
     <LogicalFolder Name="Запросы" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="добавитьЗначения.sql">
+        <FileNode Name="заполнение.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>добавитьЗначения.sql</FullPath>
+          <FullPath>заполнение.sql</FullPath>
         </FileNode>
-        <FileNode Name="изменение_колонок.sql">
+        <FileNode Name="общий_запрос.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>изменение_колонок.sql</FullPath>
+          <FullPath>общий_запрос.sql</FullPath>
         </FileNode>
-        <FileNode Name="изменениеСвойствТаблицы.sql">
+        <FileNode Name="создание_базы.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>изменениеСвойствТаблицы.sql</FullPath>
+          <FullPath>создание_базы.sql</FullPath>
         </FileNode>
-        <FileNode Name="изменитьПараметрIDСтолбцаБЕЗ_УДДАЛЕНИЯ.sql">
+        <FileNode Name="создание_таблиц.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>изменитьПараметрIDСтолбцаБЕЗ_УДДАЛЕНИЯ.sql</FullPath>
-        </FileNode>
-        <FileNode Name="изменитьПараметрIDСтолбцаЧЕРЕЗ_УДАЛЕНИЕ.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>изменитьПараметрIDСтолбцаЧЕРЕЗ_УДАЛЕНИЕ.sql</FullPath>
-        </FileNode>
-        <FileNode Name="созданиеТаблиц.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\MSSQLLocalDB:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(localdb)\MSSQLLocalDB</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>созданиеТаблиц.sql</FullPath>
+          <FullPath>создание_таблиц.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

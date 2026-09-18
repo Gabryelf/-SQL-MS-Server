@@ -3,7 +3,15 @@
     <BuildType Name="Default" />
     <Platform Name="Default" />
   </Configurations>
+  <Project Path="../Индексы/Индексы.ssmssqlproj" Type="4f2e2c19-372f-40d8-9fa7-9d2138c6997a">
+    <Platform Project="?" />
+    <Build Project="false" />
+  </Project>
   <Project Path="../Индетификаторы/Индетификаторы.ssmssqlproj" Type="4f2e2c19-372f-40d8-9fa7-9d2138c6997a">
+    <Platform Project="?" />
+    <Build Project="false" />
+  </Project>
+  <Project Path="../Магазин/Магазин.ssmssqlproj" Type="4f2e2c19-372f-40d8-9fa7-9d2138c6997a">
     <Platform Project="?" />
     <Build Project="false" />
   </Project>
